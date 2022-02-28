@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+
+header {
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+a {
+  font-family: "Roboto Serif";
+  text-decoration: none;
+  margin: auto 30px;
+  font-weight: 500;
+  color: #171717;
+}
+
+a:hover {
+  font-family: "Roboto Serif";
+  font-weight: 800;
+}
+
+.jumbotron {
+  background-image: url("../img/zhu-hongzhi-bYbpHJeRJ1c-unsplash.jpg");
+  height: 600px;
+  margin: 70px 80px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+}
+
+h1 {
+  font-weight: 300;
+  margin: auto;
+}
+
+.boldtext {
+  font-weight: 700;
+}
+
+.subtitle {
+  top: 75%;
+  left: 50%;
+  position: absolute;
+  font-size: 20px;
+  font-style: italic;
+  font-family: "Roboto Serif";
+}
+
+.instagram {
+  top: 40%;
+  right: 2%;
+  position: fixed;
+  width: 25px;
+}
+.github {
+  top: 50%;
+  right: 2%;
+  position: fixed;
+  width: 25px;
+}
+.linkedin {
+  top: 60%;
+  right: 2%;
+  position: fixed;
+  width: 25px;
+}
+
+.container {
+  height: 700px;
+  padding-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  width: 100%;
+}
+
+.titleSection {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.profile {
+  float: left;
+  width: 50%;
+}
+
+#profilePicture {
+  height: 450px;
+  position: relative;
+  left: 150px;
+}
+
+.vl {
+  border-left: 3px solid #171717;
+  height: 450px;
+}
+.bio {
+  float: right;
+  margin: 0px 100px;
+  box-sizing: border-box;
+}
+
+.bio > h4,
+.bio > p {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.bio > p {
+  font-style: italic;
+  font-family: "Roboto Serif";
+}
+
+#about {
+  background-image: url("../img/lobostudio-hamburg-gxSgv-oO_YQ-unsplash.jpg");
+  height: 500px;
+  padding: 100px 0;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  margin: 10px 15px;
+  padding: 10px;
+  cursor: pointer;
+  width: 250px;
+  height: 220px;
+  overflow: hidden;
+  background: #171717;
+  transition: 1s;
+}
+
+.card:hover {
+  color: #171717;
+  background: rgba(168, 169, 169, 0.6);
+}
+
+.rowCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.columnCard {
+  display: flex;
+  box-sizing: border-box;
+  height: auto;
+  margin: 125px auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  font-family: "Roboto Serif";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+}
+
+hr {
+  width: 30px;
+  margin: 10px 30px 30px 30px;
+}
+
+.number {
+  text-align: left;
+  margin: 20px 30px 0 30px;
+}
+
+#myStory {
+  margin: 100px auto;
+}
+#story {
+  float: left;
+  width: 50%;
+  font-size: 30px;
+}
+
+#storyImage {
+  width: 40%;
+  background-image: url("../img/zhu-hongzhi-bYbpHJeRJ1c-unsplash.jpg");
+
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#storyImage > img {
+  width: 90%;
+  margin-left: 0;
+}
+
+#storyTitle,
+#storyDesc {
+  margin-left: 30%;
+  font-weight: 300;
+}
+
+#storyDesc {
+  margin-right: 20%;
+  font-size: 18px;
+}
+
+#feedInsta {
+  font-size: 32px;
+  margin: auto;
+  height: auto;
+  padding: 80px 0 150px 0;
+}
+
+#backgroundContact {
+  height: 500px;
+  background-image: url("../img/lobostudio-hamburg-gxSgv-oO_YQ-unsplash.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contactForm {
+  position: relative;
+  top: -30%;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+#contactTitle {
+  font-size: 54px;
+  padding: 100px 0 30px 0;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+#formCol {
+  width: 100%;
+}
+form {
+  width: 80%;
+  margin: 20px auto;
+}
+
+table {
+  margin: 20px auto;
+  width: 100%;
+}
+.formText {
+  width: 100%;
+  height: 30px;
+  text-decoration: none;
+  margin: 5px auto;
+  border: none;
+  background-color: #171717;
+  color: white;
+  padding: 4px;
+}
+
+.formText::placeholder {
+  color: white;
+  padding: 4px;
+  font-style: italic;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  margin: 5px auto;
+  border: none;
+  background-color: #171717;
+  color: white;
+  padding: 4px;
+}
+
+textarea::placeholder {
+  color: white;
+  padding: 4px;
+  font-style: italic;
+}
+
+#sendBtn {
+  background-color: #171717;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-style: italic;
+}
+
+#contactText {
+  text-align: center;
+  font-style: italic;
+  font-family: "Roboto Serif";
+  font-weight: 400;
+}
+
+.rightCol {
+  width: 50%;
+}
+
+#cc {
+  font-size: 12px;
+  text-align: right;
+}
